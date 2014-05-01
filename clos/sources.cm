@@ -1,0 +1,16 @@
+
+Library
+	structure Clos
+is
+	$/basis.cm
+	$/smlnj-lib.cm
+
+	../../util/sources.cm
+	../prim/sources.cm
+	Interface.sml
+	Type.sml
+	Syntax.sml
+	PrettyPrint.sml
+	Semant.sml
+	Transform.sml
+	Clos.sml

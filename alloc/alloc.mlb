@@ -1,0 +1,34 @@
+(* import libraries *)
+
+$(SML_LIB)/basis/basis.mlb
+$(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
+
+local
+	../util/util.mlb
+	../clos/clos.mlb
+in
+	functor   IntMapFn
+	functor   SfhtFn
+	structure Hash
+	structure Symbol
+	structure Env
+	structure Sexp
+	structure Sxml
+	structure Pretty
+	structure Clos
+end
+
+
+(* program files *)
+local
+	Interface.sml
+	Type.sml
+	Syntax.sml
+	PrettyPrint.sml
+	Semant.sml
+	Transform.sml
+	Alloc.sml
+in
+	structure Alloc
+end
+

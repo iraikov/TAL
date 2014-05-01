@@ -1,0 +1,29 @@
+(* import libraries *)
+
+$(SML_LIB)/basis/basis.mlb
+$(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
+$(SML_LIB)/smlnj-lib/PP/pp-lib.mlb
+
+local
+	../util/util.mlb
+in
+	structure Symbol
+	structure Env
+	structure Sexp
+	structure Sxml
+	structure Pretty
+end
+
+(* program files *)
+local
+	Interface.sml
+	Syntax.sml
+	Type.sml
+	Sugar.sml  
+	PrettyPrint.sml
+	Elab.sml
+	Parser.sml
+	SF.sml
+in
+	structure SF
+end	

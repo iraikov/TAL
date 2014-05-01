@@ -1,0 +1,19 @@
+(* import libraries *)
+
+$(SML_LIB)/basis/basis.mlb
+$(SML_LIB)/basis/unsafe.mlb
+$(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
+
+(* program files *)
+Pos.sml
+IntMapFn.sml
+Symbol.sml
+Env.sml
+Pretty.sml
+Sexp.sml
+SXML.sml
+BitSet.sig
+BitSet.sml
+DynArray.sml
+Hash.sml
+SFHT.sml

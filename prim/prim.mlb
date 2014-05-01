@@ -1,0 +1,31 @@
+(* import libraries *)
+
+$(SML_LIB)/basis/basis.mlb
+$(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
+
+local
+	../util/util.mlb
+	../cps/cps.mlb
+in
+	structure Symbol
+	structure Env
+	structure Sexp
+	structure Sxml
+	structure Pretty
+	structure CPS
+end
+
+(* program files *)
+local
+	Interface.sml
+	Type.sml
+	Syntax.sml
+	PrettyPrint.sml
+	Semant.sml
+	Transform.sml
+	Prim.sml
+in
+	structure Prim
+end
+
+

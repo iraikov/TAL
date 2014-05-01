@@ -1,0 +1,15 @@
+Library
+	structure Alloc
+is
+	$/basis.cm
+	$/smlnj-lib.cm
+
+	../../util/sources.cm
+	../clos/sources.cm
+	Interface.sml
+	Type.sml
+	Syntax.sml
+	PrettyPrint.sml
+	Semant.sml
+	Transform.sml
+	Alloc.sml

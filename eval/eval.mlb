@@ -1,0 +1,25 @@
+(* import libraries *)
+
+$(SML_LIB)/basis/basis.mlb
+$(SML_LIB)/smlnj-lib/Util/smlnj-lib.mlb
+
+local
+	../util/util.mlb
+	../sf/sf.mlb
+in
+	structure Symbol
+	structure Env
+	structure Sexp
+	structure SF
+end
+
+(* program files *)
+local
+	Interface.sml
+	Value.sml
+	Eval.sml
+	Options.sml
+	Main.sml
+in
+	structure SFeval=Main
+end	

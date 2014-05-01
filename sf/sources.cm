@@ -1,0 +1,16 @@
+Library
+	structure SF
+is
+	$/basis.cm
+	$/smlnj-lib.cm
+
+	../util/sources.cm
+	Interface.sml
+	Syntax.sml
+	Type.sml
+	Sugar.sml  
+	Elab.sml
+	Parser.sml
+	PrettyPrint.sml
+	SF.sml
+
